@@ -120,4 +120,16 @@ window.onload = function () {
         PopUp('show');
     }, 5000);
 }
+
+
+let image = document.querySelector('#contact')
+image.onclick = toggleClass();
+
+function toggleClass(){
+	if (image.className = 'orange') {
+		image.className = 'dgrey'
+	} else {
+		image.className = 'orange'
+	}
+}
 </script>
