@@ -1,8 +1,8 @@
 let image = document.querySelector('#contact')
-image.onclick = toggleClass();
+image.onclick = toggleClass;
 
 function toggleClass(){
-	if (image.className = 'orange') {
+	if (image.className == 'orange') {
 		image.className = 'dgrey'
 	} else {
 		image.className = 'orange'
