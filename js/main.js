@@ -1,10 +1,12 @@
-let image = document.querySelector('#contact')
-image.onclick = toggleClass;
+
+
+let poop = document.querySelector('#contact')
+poop.onclick = toggleClass;
 
 function toggleClass(){
-	if (image.className == 'orange') {
-		image.className = 'dgrey'
+	if (poop.className == 'orange'){
+		poop.className = 'dgrey'
 	} else {
-		image.className = 'orange'
+		poop.className = 'orange'
 	}
 }
