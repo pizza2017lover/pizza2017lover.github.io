@@ -1,111 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Tells the Browser that this document is an html document -->
+<html lang="en"> <!-- Tells the Browser that this document's primary language is english -->
 
-	<head>
+	<head> <!-- All the stuff you don't see that sets up the webpage -->
 		
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8"> <!-- Which set of keyboard characters to use --> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Makes it work with old microsoft edge -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Content should be the same width as the viewport (the size of the window you're viewing it on) -->
+		
 		<!--Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+			<!-- I will show you how to import these from google -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 		
-			<title>Chadwick Savage</title>
+			<title>Chadwick Savage</title> <!-- This is what shows up in the tab up top -->
 		
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Custom Styles -->
 		<link rel="stylesheet" href="css/main.css">
 		
 		 
-		<script type="text/javascript" src="js/main.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
-		<!--Wrapper-->
-		<div class="container-fluid">
-		<!--Menu-->
-		<h3 class="text_lgrey" style="position: fixed; bottom: 85px; right: 10px; z-index: 100;"><a href="#About">About</h3></a>
-		<h3 class="text_lgrey" style="position: fixed; bottom: 35px; right: 10px; z-index: 100;"><a href="#portfolio">Portfolio</h3></a>
-		<h3 class="text_lgrey" style="position: fixed; bottom: 60px; right: 10px; z-index: 100;"><a href="#contact">Contact</h3></a>
-		<h3 class="text_lgrey" style="position: fixed; bottom: 10px; right: 10px; z-index: 100;"><a href="#backtotop">Back to Top</h3></a>
+		<!-- Wrapper -->
+		<div class="container">
 
-		<!--Feature-->
-			<div class="row standout" id="backtotop">
-				<div class="col-md-12" style="text-align: center; margin-top: 33vh;">
-					<h1>How Can I Help You</h1>
-					<h2>STAND OUT?</h2>
 
+			<!-- Navigation -->
+			
+			<div class="nav-menu" name="top">
+				<nav role="navigation">
+					<ul>
+						<li><a href="index.html" data-content="Change this Text to Describe Home">Home</a></li>
+
+						<li><a href="pages/about.html" data-content="This can be a quote, funny saying, short description, etc">About</a></li>
+
+						<li><a href="pages/blog.html" data-content="Tell your story through a blog if you wish, blog about the career you want or whatever your passion is">Blog</a></li>
+
+						<li><a href="pages/shop.html" data-content="You can share your resume or something here">My Work</a></li>
+
+						<li><a href="pages/contact.html" data-content="contact information or short catchy phrase like press 1 now to speak to me">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<!-- Hamburger Menu -->
+
+			<section class="nav-wrap">
+				<div class="triple_lines">
+					<span class="bar-top"></span>
+					<span class="bar-middle"></span>
+					<span class="bar-bottom"></span>
 				</div>
-	
+			</section>
+			
+			<!-- Back to Top Arrow --> 
+			
+			<div class="back2top">
+				<a href="#top" class="white"><i class="fa fa-arrow-circle-o-up fa-2x"></i></a>
 			</div>
-
-<!--About-->
-
-			<div class="row beige" id="About" style="height: 100vh;">
-				<div class="col-md-6"><h3 style="text-decoration: underline;">My Resume is Boring<br><br></h3><h5 class="text_lgrey">Yes, you read that correctly. My resume is boring and so is yours. <br><br>So I vote we do away with bulleted lists of accomplishments and schools attended to really get to the heart of the matter.<br><br>Let's give this thing a little <nobr><a href="mailto:chadwick.joshua.savage@gmail.com?Subject=I%20Would%20Like%20Meet%20You!" target="_top"><h1 style="display: inline; color: black;">oomph!</h1></a>, if you will.</nobr><br><br>Let's tell a story.<br><br>You see stories are at the heart of the human experience. They've been around since man began speaking and we immediately found stories as a source of knowledge with the capability of establishing and perpetuating culture, as well as a viable form of entertainment. Stories serve the same purpose today with a multitude of mediums through which to tell them. So how does one choose?<br><br>Luckily, you don't have to go it alone. Click the 'oomph' above and let's talk about how we can tell your story together.<br><br>Click <a href="Resume2.pdf" download style="color: #5B4D23">here</a> if you would like to view a traditional resume.</h5> 
-
-					<div class="row" style="padding-top: 40px;">
-					<div class="col-xs-3">
-				<a href="https://www.linkedin.com/in/chadwick-savage-60235742" target="_blank"><button class="btn btn-block"><i class="fa fa-linkedin"></i> LinkedIn</button></a> </div>
-
-				<div class="col-xs-3"><a href="https://github.com/Chadwicksavage" target="_blank"><button class="btn btn-block"><i class="fa fa-github"></i> GitHub</button></a></div>
-
-				<div class="col-xs-3"><a href="https://www.youtube.com/channel/UCY1HeeEyaYEKdaqR2m64I4w" target="_blank"><button class="btn btn-block"><i class="fa fa-youtube"></i> YouTube</button></a></div>
-
-				<div class="col-xs-3"><a href="https://www.instagram.com/glucosegonewild/" target="_blank"><button class="btn btn-block"><i class="fa fa-instagram"></i> Instagram</button></a></div>
-
-					</div>
-				</div>
-
-				<div class="col-md-6" style="padding-top: 30px;"><img src="images/face.png" class="img" style="max-height: 80vh; margin: auto; display: block;"></div>
-				
-				
-			</div>
-<!--Above Already Added to GitHub-->
-			<div class="row dgrey centerimg" id="portfolio" style="height: 50vh;">
-				<div class="col-md-4"><img src="images/bishopprop.png" class="blockimg"><p class="overtext">LOGO DESIGN<br><br>This logo was done for a real estate company in Florida. I adore designing logos, the challenge of fitting a story into a single square while maintaining a clean, concise picture is a challenging task at which I thrive.</p></div>
-				<div class="col-md-4"><img src="images/thiswebsite.png" class="blockimg"><p class="overtext">THIS WEBSITE<br><br>This website was built in a day using Sublime Text, Photoshop, and GitHub. While it does not showcase all of my skills, I hope it can showcase my ability to learn quickly and meet deadlines. There were definitely a few things I wanted to do but didn't know how, such as these overlays, but the internet truly does have more than funny pictures of cats. The wealth of knowledge present on the internet coupled with my desire to learn new things will allow me to successfully present your story in whatever form you wish.</p></div> 
-				
-				<div class="col-md-4"><img src="images/columbiaoil.png" class="blockimg"><p class="overtext">GEOSPATIAL ANALYSIS<br><br>I earned a Graduate Certificate from the University of Florida in Geospatial Analysis. The final class taught writing custom add-ins for ArcGIS software using C#. I didn't know that when I signed up, so two weeks in I had to learn how to write in C#. That's where it all began. My youtube channel featuers two class projects that I uploaded for the professor to grade at a later date. Unbeknownst to me, until this portfolio was made, one has garnered almost 3000 views!</p></div>
-				
-			</div>
-
-			<div class="row dgrey centerimg" style="height: 50vh;">
-				<div class="col-md-4"><img src="images/donaldmeetalice.png" class="blockimg"><p class="overtext">TWITTER BOT<br><br>After working my way through a large portion of Udacity's Front End Development Nanodegree, I read an article regarding a twitter bot. I took to the Javascript I had learned and found a few tutorials and built @DonaldMeetAlice, a twitter bot that parses 3600 of Donald Trump's tweets with the book Alice in Wonderland using a Markov chain. I run it very little but it was a great learning experience.</p></div>
-				<div class="col-md-4"><img src="images/mountain-blender-small.png" class="blockimg"><p class="overtext">BLENDER<br><br>I learned much of my coding first in graduate school, then moved on to design as I sought to bring art into my classroom via technology. I learned and then taught my students the basics of Blender for a study of biomes.</p></div>
-				<div class="col-md-4"><img src="images/smallknoxheather.png" class="blockimg"><p class="overtext">T-SHIRT DESIGN<br><br>Every class I've taught has wanted to raise money for something with t-shirt sales being their method of choice. Over the past 5 years designing t-shirts for different class projects, I have slowly but surely become more efficient and dived into greater detail.</p></div>
-			</div>
-
-			<div class="row orange" id="contact" style="height: 100vh;">
-				<div class="col-md-12">
-
-				<h2 style="text-align: center; margin-top: 20vh;">I Eagerly Await Your Owl</h2>
-
-				<div class="row" style="padding-top: 40px;">
-				
-
-				<div class="col-xs-12"><a href="mailto:chadwick.joshua.savage@gmail.com?Subject=Let's%20Talk!"><button class="btn btn-block btn2" style="color: white; background-color: #ACACAC; margin:auto;"><i class="fa fa-envelope-o fa-4x"></i></button></a><br><br>
-
-				<h2 style="text-align: center; font-size: 40px;">But If Owls Aren't Your Thing, Here's My Number:<br>423.715.5749</h2></div>
-
-					
-					
-				</div>								
-			</div>
-				
-			<!--PopUp-->	
-			<div id="ac-wrapper" style='display:none'>
-    <div id="popup">
-        <center>
-             <h2 style="color:black; font-size:22px;">This website was built in a day. It has no media queries just yet. Please forgive me but if you are viewing on an exceptionally large or exceptionally small screen, it will not load properly. A laptop is best for viewing this website.</h2>    
-            <input type="submit" name="submit" value="Gotcha!" onClick="PopUp('hide')" />
-        </center>
-    </div>
-</div>
+		
+		
 		<!--Close Wrapper-->	
 		</div>
+		
+		<!-- Scripts add interactivity to our website -->
+		
+		<!-- JQuery -->
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous">
+		</script>
+
+		<!-- Bootstrap Javascript -->
+		<script 
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+		</script>
+
+		<!-- Velocity.js -->
+		<script 
+			src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js">
+		</script>
+
+		<script 
+			src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js">
+		</script>
+
+
+
+		<!-- Custom JavaScript -->
+		<script 
+			src="js/main.js">
+		</script>
+	
 		
 	</body>
 		</html>
