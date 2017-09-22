@@ -149,6 +149,35 @@ ul li {
 
 /* ------ Card Images ----- */
 
+.wetlands {
+  background: linear-gradient(rgba(190, 192, 158, 0.7), rgba(190, 192, 158, 0.7)), url("../img/wetlands.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.impala {
+  background: linear-gradient(rgba(241, 193, 141, 0.5), rgba(241, 193, 141, 0.5)), url("../img/impala.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.snow_fox {
+  background: linear-gradient(rgba(216, 236, 237, 0.1), rgba(216, 236, 237, 0.5)), url("../img/fox.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.skye {
+  background: linear-gradient(rgba(143, 150, 166, 0.4), rgba(143, 150, 166, 0.5)), url("../img/skye.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
 
 
 
