@@ -140,7 +140,7 @@ ul li {
 /* ------ For Outside Container (Body) ------ */
 
 .feature {
-	background: linear-gradient(rgba(129, 108, 131, 0.7), rgba(129, 108, 131, 0.7)), url("../images/feature.png");
+	background: linear-gradient(rgba(129, 108, 131, 0.7), rgba(129, 108, 131, 0.7)), url("../images/gemsbok_background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
